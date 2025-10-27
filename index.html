@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeShield - Your personal password manager</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <nav ID="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="SafeShield" srcset="">
+        </div>
+        <ul>
+
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+    </nav>
+    <div class="container">
+        <h1>PASSWORD MANAGER</h1>
+        <p>Welcome to our secure haven for your passwords! We're delighted to have you here, where your digital security
+            is our top priority. Feel free to explore our trusted password management solutions and take the first step
+            towards a safer online experience. Your peace of mind is our mission!</p>
+        <h2>Your Password</h2>
+        <table>
+            <tr>
+                <th>Websites</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>
+
+
+        </table>
+        <h2>Add a Password</h2>
+
+        <form action="/submit" class="center" method="post">
+            <div class="form-group">
+
+                <!-- for website -->
+                <label for="website">Websites  :</label>
+                <input type="text" id="website" name="website" required>
+                <br>
+            </div>
+            <div class="form-group">
+
+                <!-- for username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+            </div>
+            <div class="form-group">
+
+                <!-- for password -->
+                <label for="password">Password :</label>
+                <input type="text" id="password" name="password" required>
+                <br>
+            </div>
+
+
+            <!-- <input type="submit" value="submit" > -->
+            <button src="script.js" class="btn">Submit</button>
+
+
+        </form>
+    </div>
+    <footer>
+        <div class="cen">
+            Copyright &copy; SafeShield.com All rights are reserved
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
